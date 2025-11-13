@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>ONU</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="top-header">
+      <a href="" class="logo">
+        <img src="imagenes/logoNaciones.png" alt="logo de la empresa" />
+      </a>
+      <ul class="menu-horizontal">
+        <li><a href="#">Nosotros</a></li>
+        <li>
+          <a href="#">Pago</a>
+          <ul class="menu-vertical">
+            <li><a href="#">Pago 1</a></li>
+            <li><a href="#">Pago 2</a></li>
+            <li><a href="#">Pago 3</a></li>
+            <li><a href="#">Pago 4</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Contactanos</a></li>
+        <li><a href="#">Iniciar</a></li>
+        <li><a href="#">Crear</a></li>
+      </ul>
+    </nav>
+
+    <!-- Seccion productos -->
+    <section class="seccion-productos">
+      <div class="div-general-prod">
+        <div class="div-prod-texto">
+          <h2>Seccion Productos</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+            velit ut quibusdam impedit voluptate facere doloribus saepe id
+            mollitia a rerum fugiat tenetur dolorem recusandae rem dolor
+            expedita, magnam atque laboriosam blanditiis debitis provident
+            libero sed praesentium? Explicabo, laborum. Sequi error tenetur
+            voluptatibus expedita, eius laborum minus fugit asperiores quis
+            excepturi ipsam dicta eveniet nostrum repellendus nulla ut
+            praesentium eaque!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint est
+            ab doloribus pariatur natus sit dolor vel vitae repellat itaque
+            harum laborum, totam architecto. Qui at placeat, impedit tempora
+            error ducimus assumenda voluptate iste omnis? Ea tempora officia
+            quisquam eum, quaerat perferendis dolore repellendus, similique
+            deleniti aliquid rem magnam animi suscipit cumque perspiciatis
+            maxime veniam veritatis placeat! Sint, vero omnis, quam vel rerum
+            iusto, odit est velit blanditiis doloremque excepturi?
+          </p>
+        </div>
+        <div class="div-prod-img">
+          <img src="imagenes/imgONU.png" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Seccion Banca -->
+    <section class="seccion-banca">
+      <div class="div-general-banca">
+        <div class="div-banca-texto">
+          <h2>Seccion Banca</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident
+            aliquid nesciunt quis tempore exercitationem accusantium nobis
+            molestias, voluptate ut quo odit nam ullam hic sed repudiandae
+            officia nostrum ipsam et quasi eos recusandae corrupti? Harum, quis
+            fuga obcaecati maiores repellendus quidem sint deserunt laboriosam
+            aspernatur deleniti necessitatibus error sed doloremque aut iste.
+            Impedit, voluptatum eos? Rerum soluta repellendus sequi, eaque
+            incidunt illum? Harum architecto fugit explicabo officiis,
+            reiciendis dolorem cum?
+          </p>
+        </div>
+        <div class="div-banca-video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/eE-wdNx-_WY?si=yhUbi9Xl1MIeGrjZ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion-formulario">
+      <div class="div-content-formulario">
+        <h2>Formulario de Registro de Donadores</h2>
+        <p>Complete todo los campos</p>
+        <form class="formulario-registro-socios">
+          <div class="campo">
+            <label for="nombre">Nombre Completo:</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Ingrese su nombre completo"
+            />
+          </div>
+          <div class="campo">
+            <label for="nombre">Pais:</label>
+            <select name="pais" id="pais">
+              <option value="">seleccione un pais</option>
+              <option value="peru">Peru</option>
+              <option value="argentina">Argentina</option>
+              <option value="chile">Chile</option>
+              <option value="colombia">Colombia</option>
+            </select>
+          </div>
+          <div class="campo">
+            <label>Intereses:</label>
+            <ul class="lista-checkbox">
+              <li>
+                <label for=""
+                  ><input type="checkbox" name="intereses" value="a" />Ayudar al
+                  progimo</label
+                >
+              </li>
+              <li>
+                <label for=""
+                  ><input type="checkbox" name="intereses" value="b" />Brindar
+                  oportunidades</label
+                >
+              </li>
+              <li>
+                <label for=""
+                  ><input type="checkbox" name="intereses" value="c" />Ser
+                  reconocido</label
+                >
+              </li>
+              <li>
+                <label for=""
+                  ><input
+                    type="checkbox"
+                    name="intereses"
+                    value="d"
+                  />Caridad</label
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="campo">
+            <label>Sexo:</label>
+            <ul class="lista-radio">
+              <li>
+                <label
+                  ><input
+                    type="radio"
+                    name="sexo"
+                    value="masculino"
+                  />Masculino</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="radio"
+                    name="sexo"
+                    value="femenino"
+                  />Femenino</label
+                >
+              </li>
+            </ul>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
